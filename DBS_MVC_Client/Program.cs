@@ -20,6 +20,7 @@ builder.Services.AddHttpClient();
 var app = builder.Build();
 
 //--Kailash 11/11/2026--//
+//--extra line--//
 using (var scope = app.Services.CreateScope())
 {
     var roleManager =
